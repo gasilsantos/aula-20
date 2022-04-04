@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário de login</title>
+</head>
+<body>
+    <p><h2>tela de login</h2></p>
+    <form action="" method = "post"></form>
+     <table>
+         <tr>
+             <td><label for="email">email</label></td>
+             <td><label for="senha">senha</label></td>
+         </tr>
+         <tr>
+             <td><input type="text" id="email " name="email" placeholder="email"></td>
+             <td><input type="text" id="senha" name="senha" placeholder="senha"></td>
+         </tr>
+         <tr>
+             <td><input type="submit" id= "submit" name= "submit" value="login"></td>
+         </tr>
+     </table>
+</body>
+</html>
