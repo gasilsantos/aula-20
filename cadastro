@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário de cadastro</title>
+</head>
+<body>
+    <p><h2>formulário de cadastro</h2></p>
+    <form action="" method="post"></form>
+     <table>
+         <tr>
+             <td><label for="nome">nome</label></td>
+             <td><input type="text" id="nome" nome="nome"></td>
+         </tr>
+         <tr>
+             <td><label for="sobrenome">sobrenome</label></td>
+             <td><input type="text" id= "sobrenome" nome="sobrenome"></td>
+         </tr>
+         <tr>
+             <td><label for="endereço">endereço</label></td>
+             <td><textarea name="endereço" id="" cols="20" rows="3"></textarea></td>
+         </tr>
+         <tr>
+             <td><label for="disciplinas">disciplinas</label></td>
+             <td>
+                 <input type="checkbox" />programação <br />
+                 <input type="checkbox" />lógica <br> 
+                 <input type="checkbox" />algoritmos <br />
+                 <input type="checkbox" />banco de dados<br />
+                 <input type="checkbox" />mobile
+             </td>
+         </tr>
+         <tr>
+             <td><label for="genero">genero</label></td>
+             <td>
+                 <input type="radio" name="s1" id="m" checked="true" /><label>masculino</label>
+                 <input type="radio" name="s1" id="f" /> <label>feminino</label>
+                 <input type="radio" name="s1" id="n" /> <label>não informar</label>
+             </td>
+         </tr>
+         <tr>
+             <td><label for="idade">idade</label></td>
+             <td>
+                 <select id="idade" name="idade">
+                    <option value="">select</option>
+                    <option value="c">criança</option>
+                    <option value="a">adulto</option>
+                    <option value="i">idoso</option>
+                 </select>   
+             </td>
+         </tr>
+         <tr>
+             <td><label for="picture">foto de perfil</label></td>
+             <td><input id="picture" type="file" name="picture" required="true" /></td>
+         </tr>
+         <tr>
+             <td colspan="2">
+                 <input type="button" value="cadastrar" name="cadastrar"/>
+                 <input type="reset" value="limpar" name="limpar" id="cadastrar" />
+             </td>
+         </tr>
+     </table>
+</body>
+</html>
